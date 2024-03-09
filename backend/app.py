@@ -140,4 +140,10 @@ def index():
 
 
 if __name__ == '__main__':
+    '''if you want just want the results to be printed to the console then uncomment the line below and comment out the app.run line
+       also run the file with 'python app.py' in the terminal instead of 'flask run'
+    '''
+
+    # process_fhir_data_route()
+
     app.run(debug=True)
