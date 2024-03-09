@@ -64,7 +64,8 @@ def get_condition_details(condition):
             abatement = condition.abatementDateTime.isostring  # when treated
             duration = f"{onset} - {abatement}"
             condition_details['duration'] = duration
-        condition_details['duration'] = f'{onset} - present'
+        else:
+            condition_details['duration'] = f'{onset} - present'
     return condition_details
 
 
