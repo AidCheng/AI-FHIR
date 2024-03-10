@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "realtimehealth"
+version = "0.1.0"
+description = ""
+authors = ["Annaelle MANSUY <annaelle.mansuy@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.1.9"
+langchain-community = "^0.0.24"
+gradio = "^4.19.2"
+fhirclient = "^4.1.0"
+faiss-cpu = "^1.7.4"
+huggingface-hub = "^0.21.3"
+pymupdf = "^1.23.25"
+sentence-transformers = "^2.5.0"
+orca = "^1.8"
+llama-index-core = "^0.10.16.post1"
+llama-index-readers-file = "^0.1.8"
+llama-index-llms-ollama = "^0.1.2"
+llama-index-embeddings-huggingface = "^0.1.4"
+ipython = "^8.22.2"
+llama-index = "^0.10.16"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
