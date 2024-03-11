@@ -1,7 +1,7 @@
 # Test frontend
 
 This is a simple react frontend that was used to test the backend.
-Including it in the repo in case you want to use it to test the backend.
+It displays a list of the patients filtered data.
 
 - To run it first install node modules:
 
